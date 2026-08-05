@@ -6,7 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>ServiceDesk 360</title>
  <link rel="stylesheet"
- href="${pageContext.request.contextPath}/sources/estilos.css">
+ href="${pageContext.request.contextPath}/resources/css/estilos.css">
 </head>
 <body>
  <header class="encabezado">
@@ -30,6 +30,15 @@
  href="${pageContext.request.contextPath}/diagnostico">
  Ver diagnóstico del sistema
  </a>
+ 
+ <div class="acciones-formulario">
+ <a href="${pageContext.request.contextPath}/registro">
+ Crear cuenta temporal
+ </a>
+ <a href="${pageContext.request.contextPath}/acceso">
+ Iniciar acceso
+ </a>
+</div>
  </main>
 </body>
 </html>
